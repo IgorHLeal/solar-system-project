@@ -1,13 +1,247 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url('images/background.png');
+  color: white;
 }
+
+h1 {
+  margin-top: 10px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.solar-system {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+}
+
+.planet-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.planets-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.planet-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.planet-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 25px;
+  font-size: 1.3rem;
+}
+
+.planet-card img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  transition: 2s;
+}
+
+.planet-card img:hover {
+  -webkit-transform: scale(2.3);
+  -ms-transform: scale(2.3);
+  transform: scale(2.3);
+}
+
+.planet-name {
+  margin-top: 200px;
+  position: absolute;
+}
+
+.planet-card:nth-child( 1 ) {
+  height: 31px;
+  width: 91px;
+}
+
+.planet-card:nth-child( 2 ) {
+  height: 76px;
+  width: 162px;
+}
+
+.planet-card:nth-child( 3 ) {
+  height: 79px;
+  width: 166px;
+}
+
+.planet-card:nth-child( 4 ) {
+  height: 60px;
+  width: 116px;
+}
+
+.planet-card:nth-child( 5 ) {
+  height: 204px;
+  width: 332px;
+}
+
+.planet-card:nth-child( 6 ) {
+  height: 210.9px;
+  width: 352.41px;
+}
+
+.planet-card:nth-child( 7 ) {
+  height: 109px;
+  width: 204px;
+}
+
+.planet-card:nth-child( 8 ) {
+  height: 104px;
+  width: 204px;
+}
+
+.missions-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.missions-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.missions {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  justify-content: center;
+}
+
+.mission-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+  flex-flow: row wrap;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 250px;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.mission-card:hover {
+  background-color: rgba(255, 255, 255, 0.281);
+  transition: 2s;
+  /* -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); */
+} 
+
+.mission-name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.mission-description-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(76, 164, 109, 0.2); */
+}
+
+.logo img {
+  width: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(121, 120, 120, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 5px;
+}
+
+.logo img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+#root {
+  width: 100%;
+}
+
+/* REFERÊNCIAS:
+Com a ajuda do Luiz Guilherme Turma 19A consegui refatorar a estilização das imagens de cada um dos planetas.
+ */
