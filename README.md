@@ -3,6 +3,7 @@
 # Sumário
 
 - [Sumário](#sumário)
+- [Acesse aqui a página web do projeto](https://igorhleal.github.io/solar-system-project/)
 - [Imagem do resultado final do projeto](#imagem-do-resultado-final-do-projeto)
 - [Habilidades](#habilidades)
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
