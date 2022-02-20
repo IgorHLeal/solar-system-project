@@ -3,7 +3,7 @@
 # Sumário
 
 - [Sumário](#sumário)
-- [Acesse aqui a página web do projeto]()
+- [Imagem do resultado final do projeto](#imagem-do-resultado-final-do-projeto)
 - [Habilidades](#habilidades)
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
 - [Requisitos do projeto](#requisitos-do-projeto)
@@ -20,6 +20,12 @@
 
 ---
 
+# Imagem do resultado final do projeto
+
+![Página](src/images/page.png)
+
+
+--- 
 # Habilidades
 Neste projeto, foi verificada a minha capacidade de:
 
@@ -60,7 +66,6 @@ Neste projeto você desenvolvi um modelo do sistema solar! Ao utilizar essa apli
 - Ele deve conter uma tag `header` e, dentro dela, uma tag `h1`. O texto da tag `h1` deve ser "Sistema Solar".
 - Renderize o componente `Header` dentro do componente principal `App`.
 
-![Screenshot](public/examples/req1.png)
 
 ### O que será verificado
 
@@ -109,7 +114,6 @@ Neste projeto você desenvolvi um modelo do sistema solar! Ao utilizar essa apli
 - Renderize o componente `Title` dentro do componente `SolarSystem`.
 - O componente `Title` deve ser renderizado recebendo a prop `headline` com o valor "Planetas".
 
-![Screenshot](public/examples/req4.png)
 
 ### O que será verificado
 
@@ -157,7 +161,6 @@ import planets from '../data/planets';
 
 > :bulb: Dica: lembre-se do método que te permite criar vários componentes iguais a partir dos valores presentes em um array. Lembre-se que ao renderizar uma lista, você deve passar o atributo `key` para cada item. Você pode usar o nome do planeta como `key`.
 
-![Screenshot](public/examples/req6.png)
 
 ### O que será verificado
 
@@ -185,7 +188,6 @@ import planets from '../data/planets';
 - Renderize o componente `Title` dentro do componente `Missions`.
 - O componente `Title` deve ser renderizado recebendo a prop `headline` com o valor "Missões"
 
-![Screenshot](public/examples/req8.png)
 
 ### O que será verificado
 
@@ -243,7 +245,6 @@ import missions from '../data/missions';
 
 > :bulb: Dica: lembre-se do método que te permite criar vários componentes iguais a partir dos valores presentes em um array. Lembre-se que ao renderizar uma lista, você deve passar o atributo `key` para cada item. Você pode usar o nome da missão como `key`.
 
-![Screenshot](public/examples/req10.png)
 
 ### O que será verificado
 
